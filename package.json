@@ -1,0 +1,36 @@
+{
+  "name": "three-js-360-panorama-sample",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "./node_modules/.bin/webpack --config webpack.prod.config.js",
+    "dev": "./node_modules/.bin/webpack --config webpack.dev.config.js --watch",
+    "serve": "node app.js",
+    "clean": "rm -rf dist",
+    "aclean": "rm -rf dist && rm -rf node_modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igara/three-js-360-panorama-sample.git"
+  },
+  "author": "igara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/igara/three-js-360-panorama-sample/issues"
+  },
+  "homepage": "https://github.com/igara/three-js-360-panorama-sample#readme",
+  "devDependencies": {
+    "@types/requirejs": "^2.1.26",
+    "@types/three": "0.0.19",
+    "exports-loader": "^0.6.3",
+    "express": "^4.14.0",
+    "file-loader": "^0.9.0",
+    "imports-loader": "^0.6.5",
+    "three": "^0.79.0",
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.0.0",
+    "uglify-save-license": "^0.4.1",
+    "webpack": "^1.13.1"
+  }
+}
