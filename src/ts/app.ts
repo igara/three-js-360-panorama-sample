@@ -6,16 +6,48 @@ THREE.OrbitControls = require('imports?THREE=three!exports?THREE.OrbitControls!.
 class ThreeJSSample {
 
     /**
-     * @var 
+     * @var 画面の横のサイズ
      */
     private width = window.innerWidth;
+
+    /**
+     * @var 画面の縦のサイズ
+     */
     private height = window.innerHeight;
+
+    /**
+     * @var スクリーン
+     */
     private scene: THREE.Scene;
+
+    /**
+     * @var カメラ
+     */
     private camera: THREE.Camera;
+
+    /**
+     * @var WebGLレンダラー
+     */
     private renderer: THREE.WebGLRenderer;
+
+    /**
+     * @var ジオメトリー
+     */
     private geometry: THREE.Geometry;
+
+    /**
+     * @var マテリアル
+     */
     private material: THREE.Material;
+
+    /**
+     * @var メッシュ
+     */
     private mesh: THREE.Mesh;
+
+    /**
+     * @var コントロール
+     */
     private controls: THREE.OrbitControls;
 
     /**
