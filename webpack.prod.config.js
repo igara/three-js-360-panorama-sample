@@ -11,13 +11,13 @@ module.exports = {
     ],
     entry: {
         // build対象
-        app: __dirname + '/src/ts/app.ts',
+        index: __dirname + "/src/ts/index.ts",
+        test:  __dirname + "/src/ts/test.ts",
     },
     output: {
         // 出力先のディレクトリを指定する
-        path: __dirname + '/dist',
+        path: __dirname + "/dist/js",
         // 出力するファイル名
-        // [name]にはentryのキーにした名前が入る。今回の例ではapp.bundle.jsになる
         filename: "[name].bundle.js",
     },
     resolve: {

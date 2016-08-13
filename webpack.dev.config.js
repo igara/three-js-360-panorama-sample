@@ -3,11 +3,12 @@ module.exports = {
     plugins: [],
     entry: {
         // build対象
-        app: __dirname + "/src/ts/app.ts",
+        index: __dirname + "/src/ts/index.ts",
+        test:  __dirname + "/src/ts/test.ts",
     },
     output: {
         // 出力先のディレクトリを指定する
-        path: __dirname + "/dist",
+        path: __dirname + "/dist/js",
         // 出力するファイル名
         filename: "[name].bundle.js",
     },
