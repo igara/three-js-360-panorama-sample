@@ -84,7 +84,7 @@ class ThreeJSSample {
         // 画像を読み込む
         var textureLoader = new THREE.TextureLoader();
         textureLoader.crossOrigin = "anonymous";
-        var texture = textureLoader.load('/src/img/index.jpg');
+        var texture = textureLoader.load('src/img/index.jpg');
         this.material = new THREE.MeshBasicMaterial({map: texture });
         // 上記作成のジオメトリーとマテリアルを合わせてメッシュを生成
         this.mesh = new THREE.Mesh(this.geometry, this.material);
