@@ -14,6 +14,7 @@ module.exports = {
         index: __dirname + "/src/ts/index.ts",
         test:  __dirname + "/src/ts/test.ts",
         daimon:  __dirname + "/src/ts/daimon.ts",
+        gozilla:  __dirname + "/src/ts/gozilla.ts",
     },
     output: {
         // 出力先のディレクトリを指定する
