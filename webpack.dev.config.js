@@ -5,6 +5,7 @@ module.exports = {
         // build対象
         index: __dirname + "/src/ts/index.ts",
         test:  __dirname + "/src/ts/test.ts",
+        daimon:  __dirname + "/src/ts/daimon.ts",
     },
     output: {
         // 出力先のディレクトリを指定する
